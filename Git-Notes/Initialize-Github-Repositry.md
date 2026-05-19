@@ -11,5 +11,6 @@ git commit -m "README.md made" # Prepare commit which will be pushed to github
 git branch -M main # Creates main branch similar to when creating it using web interface
 
 # Connect git to github Finally
+gh repo create my-cool-project --public --source=. --remote=origin --push
 git remote add origin https://github.com/novic30/my-cool-project.git
 git push -u origin main
