@@ -1,3 +1,10 @@
+apt	= Used to installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions
+	sudo apt install given-package downloads given package if it's available to be downloaded
+	sudo apt install package1 package2 package3 allows downloading for multiple packages.
+	sudo apt update updates packages present in the apt index which is basically a database that holds records of available packages from the repositories enabled in your system.
+
+
+
 sudo 	= Run a command as admin/root
 	sudo nano sensitive-File
 	sudo rm imp-file
