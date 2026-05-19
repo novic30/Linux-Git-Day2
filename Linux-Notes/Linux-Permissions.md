@@ -3,8 +3,11 @@ rwx = Read Write and Execute permissions
 Typical Format is: - --- --- --- where --- could be rwx or rw- etc. depending on permissions.
 
 First - is for file type where - means file, d = Directory, 1 = Link etc.
+
 Second --- means Permissions the owner have over the given file/directory
+
 Third --- means Permissions certain groups in the system have over the given file/directory
+
 Fourth --- means Permissions other users have on this given file/directory
 
 ```bash
