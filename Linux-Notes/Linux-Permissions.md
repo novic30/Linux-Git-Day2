@@ -13,7 +13,7 @@ Fourth --- means Permissions other users have on this given file/directory
 ```bash
 ls -la # Lists file and folders including hidden ones with their permissions
 chmod a+r file # Give read permission to all users
-
+```
 Permission model for ```bash chmod 754 shell ``` is:
 Binary Notation:                4 2 1  |  4 2 1  |  4 2 1
 ----------------------------------------------------------
