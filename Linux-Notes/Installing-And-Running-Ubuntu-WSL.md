@@ -1,7 +1,10 @@
+
 INSTALLING:
 1. Run PowerShell as administrator
 2. Run the command below:
+```bash
 	wsl --install
+```
 3. Restart the machine
 
 
