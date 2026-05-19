@@ -33,7 +33,8 @@ cat	= Outputs the contents of the files to terminal
 	cat wutever-notes.md
 	cat random.txt
 	cat something.pdf will output some weird language because the content is machine language or something
-
+	cat something.txt > specific.txt outputs content of something.txt to specific.txt by overwriting specific.txt file
+        cat something.txt > specific.txt outputs content of something.txt to specific.txt by appending after wutever is already present in specific.txt
 pwd     = Returns current working directory filepath
 
 clear	= Cleans the shell output
