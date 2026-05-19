@@ -10,11 +10,13 @@ Third --- means Permissions certain groups in the system have over the given fil
 
 Fourth --- means Permissions other users have on this given file/directory
 
+
+
 ```bash
 ls -la # Lists file and folders including hidden ones with their permissions
 chmod a+r file # Give read permission to all users
-```
-Permission model for ```bash chmod 754 shell ``` is:
+
+Permission model for 'chmod 754 shell' is:
 Binary Notation:                4 2 1  |  4 2 1  |  4 2 1
 ----------------------------------------------------------
 Binary Representation:          1 1 1  |  1 0 1  |  1 0 0
@@ -22,3 +24,4 @@ Binary Representation:          1 1 1  |  1 0 1  |  1 0 0
 Octal Value:                      7    |    5    |    4
 ----------------------------------------------------------
 Permission Representation:      r w x  |  r - x  |  r - -
+
