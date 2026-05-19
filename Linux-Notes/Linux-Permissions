@@ -20,4 +20,3 @@ Octal Value:                      7    |    5    |    4
 ----------------------------------------------------------
 Permission Representation:      r w x  |  r - x  |  r - -
 
-```bash
